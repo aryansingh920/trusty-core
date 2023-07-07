@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-The latest commit in this repository is: Commit Message
+Latest Commit: changes | 2023-07-08 02:55:40 
 
 ## Assignment Overview
 

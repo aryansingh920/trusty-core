@@ -16,7 +16,8 @@ git commit -m "$commit_message_with_date"
 git push
 
 # Update README.md with the commit message
-sed -i "2i- Latest Commit: $commit_message_with_date" README.md
+commit_line="Latest Commit: $commit_message_with_date"
+awk -v commit_line="$commit_line" 'NR==7 {$0=commit_line} 1' README.md > temp.md && mv temp.md README.md
 
 # Print success message
 echo "Commit successful! README.md updated."

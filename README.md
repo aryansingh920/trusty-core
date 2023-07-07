@@ -51,9 +51,3 @@ Please find below the links for my submission:
 
 - GitHub Repository: [GitHub Link](https://github.com/aryansingh920/trusty-core.git)
 - Video Tutorial: [Video Link](add-your-video-link-here)
-
-For any questions or clarifications, please reach out to TrustyCore at TrustyCoreInfo@trustycore.com.
-
-I appreciate your time and consideration in reviewing my submission. Thank you!
-
-**Note:** Remember to replace "link-to-the-blog-post" in the README with the actual link to the blog post "GETTING STARTED WITH TRUSTYAI IN ONLY 15 MINUTES". Also, replace the placeholders "add-your-github-link-here" and "add-your-video-link-here" with the actual links to your GitHub repository and video tutorial, respectively.

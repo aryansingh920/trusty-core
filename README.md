@@ -2,6 +2,10 @@
 
 This repository contains my submission for the TrustyCore Software Engineer assignment. The assignment focuses on getting started with TrustyAI by following the steps outlined in the blog post "Getting Started with TrustyAI in Only 15 Minutes."
 
+## Latest Commit
+
+The latest commit in this repository is: Commit Message
+
 ## Assignment Overview
 
 The objective of this assignment is to familiarize oneself with TrustyAI by completing the following tasks:

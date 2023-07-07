@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the README.md file that includes placeholders for the GitHub link and video link:
-
 # TrustyCore Assignment: Software Engineer
 
 This repository contains my submission for the TrustyCore Software Engineer assignment. The assignment focuses on getting started with TrustyAI by following the steps outlined in the blog post "Getting Started with TrustyAI in Only 15 Minutes."

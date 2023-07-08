@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: readme and gitignore update | 2023-07-08 20:59:26 
+Latest Commit: readme corrections | 2023-07-08 21:05:41 
 
 ## Assignment Overview
 
@@ -23,11 +23,11 @@ The objective of this assignment is to familiarize oneself with TrustyAI by comp
 
 2. Follow the steps outlined in the blog post to complete the integration:
 
-   - **Step 1: Check for Prerequisites**: Run the `clone.sh` script located in the `/Dependency-check` directory to check for the prerequisites in the system. Open the terminal, navigate to the `/Dependency-check` directory, and execute the following commands:
+   - **Step 1: Check for Prerequisites**: Run the `dependency-check.sh` script located in the `/Dependency-check` directory to check for the prerequisites in the system. Open the terminal, navigate to the `/Dependency-check` directory, and execute the following commands:
 
      ```bash
-     chmod +x dependency-check.sh.sh
-     ./dependency-check.sh.sh
+     chmod +x dependency-check.sh
+     ./dependency-check.sh
      ```
 
    - **Step 2: Clone the kogito-examples Repository**: Clone the `kogito-examples` repository to your local system. Execute the following commands in the terminal:

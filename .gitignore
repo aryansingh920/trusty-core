@@ -1,1 +1,28 @@
 src/kogito-examples/
+# Ignore compiled output
+*.o
+*.out
+*.exe
+
+# Ignore temporary files
+*~
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore dependencies
+/node_modules
+/bower_components
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore IDE and editor specific files
+/.idea
+/.vscode
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db

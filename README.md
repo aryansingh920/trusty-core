@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: readme update for src | 2023-07-08 20:46:54 
+Latest Commit: readme and gitignore update | 2023-07-08 20:59:26 
 
 ## Assignment Overview
 
@@ -23,35 +23,38 @@ The objective of this assignment is to familiarize oneself with TrustyAI by comp
 
 2. Follow the steps outlined in the blog post to complete the integration:
 
-   - Step 1: Clone the kogito-examples repository.
-   - Step 2: Build a Kogito decision service with the necessary addons.
-   - Step 3: Build the Docker image for the Kogito service.
-   - Step 4: Run the Kogito service with the TrustyAI infrastructure.
-   - Step 5: Access the services and test the Kogito application.
+   - **Step 1: Check for Prerequisites**: Run the `clone.sh` script located in the `/Dependency-check` directory to check for the prerequisites in the system. Open the terminal, navigate to the `/Dependency-check` directory, and execute the following commands:
 
-3. Create a video tutorial explaining the process:
+     ```bash
+     chmod +x dependency-check.sh.sh
+     ./dependency-check.sh.sh
+     ```
 
-   - Use screen recording software or any preferred method to create a clear and well-structured video tutorial.
-   - Cover the key steps, challenges faced, and any additional insights gained during the implementation.
-   - Ensure the video is of sufficient quality and clarity.
+   - **Step 2: Clone the kogito-examples Repository**: Clone the `kogito-examples` repository to your local system. Execute the following commands in the terminal:
 
-4. Upload the integration code to GitHub:
+     ```bash
+     chmod +x clone.sh
+     ./clone.sh
+     ```
 
-   - Create a well-structured repository to host the code.
-   - Include a README file with clear instructions and explanations.
-   - Make the repository publicly accessible.
+   - **Step 3: Build the Kogito Decision Service**: Build a Kogito decision service with the necessary addons. Execute the following command in the terminal:
 
-5. Fill out the provided Google Form:
+     ```bash
+     chmod +x build-kogito-decsion-service.sh
+     ./build-kogito-decsion-service.sh
+     ```
 
-   - Provide accurate and complete information in the form.
-   - Share the GitHub link to the integration code repository.
-   - Include the demo video and any other requested inputs.
+   - **Step 4: Build the Docker Image**: Build the Docker image for the Kogito service. Follow the instructions provided in the blog post.
+
+   - **Step 5: Run the Kogito Service**: Run the Kogito service with the TrustyAI infrastructure. Refer to the blog post for detailed instructions.
+
+   - **Step 6: Access and Test the Application**: Access the services and test the Kogito application as mentioned in the blog post.
 
 ## Submission
-
-The submission for this assignment is due on July 10th, 2023. The evaluation will be based on successful integration, the clarity and quality of the video tutorial, and the organization of the GitHub repository.
 
 Please find below the links for my submission:
 
 - GitHub Repository: [GitHub Link](https://github.com/aryansingh920/trusty-core.git)
 - Video Tutorial: [Video Link](add-your-video-link-here)
+
+Please note that the above submission links are placeholders and should be replaced with your actual submission links.

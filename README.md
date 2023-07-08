@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: indentation fixes | 2023-07-09 00:34:42 
+Latest Commit: indentation fixes | 2023-07-09 00:35:29 
 
 ## Assignment Overview
 
@@ -51,10 +51,10 @@ The objective of this assignment is to familiarize oneself with TrustyAI by comp
    - **Step 5: Run the Kogito Service**: Run the Kogito service with the TrustyAI infrastructure. Refer to the blog post for detailed instructions.
      - Run the update docker compose script file
 
-    ```bash
+      ```bash
       chmod +x update-docker-compose.sh
       ./update-docker-compose.sh
-    ```
+      ```
 
    - **Step 6: Access and Test the Application**: Access the services and test the Kogito application as mentioned in the blog post.
       - The services are available at the following endpoints:

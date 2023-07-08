@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: kogito-examples step1 script | 2023-07-08 03:03:37 
+Latest Commit: readme update for src | 2023-07-08 20:46:54 
 
 ## Assignment Overview
 

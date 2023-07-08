@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export M2_HOME=/usr/local/apache-maven-3.9.3
+export PATH=$M2_HOME/bin:$PATH
+
+
 # Function to check if a command is available
 check_command() {
   command -v "$1" >/dev/null 2>&1

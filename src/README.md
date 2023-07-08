@@ -4,7 +4,7 @@ This folder src/ contains two script files, `clone.sh` and `build-kogito-decisio
 
 ### clone.sh
 
-Latest Commit: update readme and add commands to build docker image from kogito decision service with tracking addon | 2023-07-08 22:47:29 
+Latest Commit: update readme and add commands to build docker image from kogito decision service with tracking addon | 2023-07-08 22:47:29
 
 1. Changes the directory to the `src` folder.
 2. Removes the existing `kogito-examples` directory (if it exists) using the `rm -rf` command.
@@ -28,6 +28,10 @@ The build-kogito-decision-service.sh script performs the following steps:
 3. Copies the generated Grafana dashboards to the docker-compose directory: cp dmn-tracing-quarkus/target/classes/META-INF/resources/monitoring/dashboards/\* trusty-demonstration/docker-compose/grafana/provisioning/dashboards/.
 4. Builds the Docker image for the Kogito decision service: docker build -t org.kie.kogito/dmn-tracing-quarkus:1.0 dmn-tracing-quarkus/.
 
+We have taken the tag image org.kie.kogito/dmn-tracing-quarkus:1.0, but you can use another tag.
+
+The second step is to run the Kogito service together with the TrustyAI infrastructure. In order to do that, change your current directory to kogito-examples/kogito-quarkus-examples/trusty-demontration/docker-compose .
+
 To execute this script, make sure you have already executed the clone.sh script, as it depends on the kogito-examples directory being present. Then, run the following command in the terminal:
 
 ```bash
@@ -41,7 +45,3 @@ Copy code
 Make sure you have executed dependency-check.sh to check if prerequisites are already satisfied.
 
 Please note that the execution of these scripts assumes a Unix-like environment with Bash as the default shell. If you are using a different operating system or shell, you may need to modify the scripts accordingly.
-
-```
-
-```

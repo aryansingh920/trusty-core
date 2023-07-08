@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: readme updates | 2023-07-08 22:49:13 
+Latest Commit: add git compose update files | 2023-07-08 23:48:47 
 
 ## Assignment Overview
 

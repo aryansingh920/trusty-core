@@ -23,7 +23,7 @@ fi
 
 # Check Docker Compose
 if check_command "docker-compose"; then
-  docker_compose_version=$(docker-compose --version | awk '{print $3}')
+  docker_compose_version=$(docker-compose version --short)
   echo "Docker Compose is installed. Version: $docker_compose_version"
 else
   echo "Docker Compose is not installed."

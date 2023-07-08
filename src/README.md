@@ -1,10 +1,10 @@
-## Repository Setup and Kogito Decision Service Build then copy the generated grafana dashboards to the docker-compose directory with and build the docker image
+## Repository Setup and Kogito Decision Service Build then copy the generated grafana dashboards to the docker-compose directory with and build the docker image and compose the image
 
 This folder src/ contains two script files, `clone.sh` and `build-kogito-decision-service.sh`, which are used to set up the repository and build a Kogito decision service with specific add-ons.
 
 ### clone.sh
 
-Latest Commit: update readme and add commands to build docker image from kogito decision service with tracking addon | 2023-07-08 22:47:29
+Clones the github repository
 
 1. Changes the directory to the `src` folder.
 2. Removes the existing `kogito-examples` directory (if it exists) using the `rm -rf` command.
@@ -20,7 +20,8 @@ chmod +x clone.sh
 ./clone.sh
 ```
 
-build-kogito-decision-service.sh
+### build-kogito-decision-service.sh
+
 The build-kogito-decision-service.sh script performs the following steps:
 
 1. Changes the directory to src/kogito-examples/kogito-quarkus-examples/.
@@ -30,7 +31,7 @@ The build-kogito-decision-service.sh script performs the following steps:
 
 We have taken the tag image org.kie.kogito/dmn-tracing-quarkus:1.0, but you can use another tag.
 
-The second step is to run the Kogito service together with the TrustyAI infrastructure. In order to do that, change your current directory to kogito-examples/kogito-quarkus-examples/trusty-demontration/docker-compose .
+The second step is to run the Kogito service together with the TrustyAI infrastructure. In order to do that, change your current directory to kogito-examples/kogito-quarkus-examples/trusty-demonstration/docker-compose .
 
 To execute this script, make sure you have already executed the clone.sh script, as it depends on the kogito-examples directory being present. Then, run the following command in the terminal:
 
@@ -40,7 +41,40 @@ chmod +x build-kogito-decision-service.sh
 
 ```
 
-Copy code
+### update-docker-compose.sh
+
+updates the docker compose file
+
+Script Details
+Variables:
+
+docker_image_tag: Specifies the new Docker image tag to be used.
+compose_file: Specifies the location of the docker-compose.yml file.
+compose_directory: Specifies the directory containing the docker-compose.yml file.
+Step 1: Changing Directory
+
+The script changes the current directory to the specified compose_directory using the cd command.
+Step 2: Updating Docker Compose File
+
+The script uses the sed command to replace line 48 in the docker-compose.yml file with the specified docker_image_tag.
+Step 3: Starting Docker Compose
+
+The script executes the docker-compose up command to start the Docker containers defined in the updated docker-compose.yml file.
+Usage
+Modify the script to specify the desired docker_image_tag, compose_file, and compose_directory variables.
+
+Run the script using the command: bash update-docker-compose.sh
+
+The script will change to the specified directory, update the docker-compose.yml file with the new image tag, and start the Docker containers.
+
+Ensure that Docker and Docker Compose are installed and configured on the system before running the script.
+
+To execute this script, run the following command in the terminal:
+
+```bash
+chmod +x update-docker-compose.sh
+./update-docker-compose.sh
+```
 
 Make sure you have executed dependency-check.sh to check if prerequisites are already satisfied.
 

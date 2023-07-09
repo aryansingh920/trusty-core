@@ -4,7 +4,7 @@ This repository contains my submission for the TrustyCore Software Engineer assi
 
 ## Latest Commit
 
-Latest Commit: indentation fixes | 2023-07-09 00:35:29 
+Latest Commit: git file update | 2023-07-09 11:27:26 
 
 ## Assignment Overview
 
@@ -49,25 +49,26 @@ The objective of this assignment is to familiarize oneself with TrustyAI by comp
      - The docker build is done in previous step as well
 
    - **Step 5: Run the Kogito Service**: Run the Kogito service with the TrustyAI infrastructure. Refer to the blog post for detailed instructions.
+
      - Run the update docker compose script file
 
-      ```bash
-      chmod +x update-docker-compose.sh
-      ./update-docker-compose.sh
-      ```
+     ```bash
+     chmod +x update-docker-compose.sh
+     ./update-docker-compose.sh
+     ```
 
    - **Step 6: Access and Test the Application**: Access the services and test the Kogito application as mentioned in the blog post.
-      - The services are available at the following endpoints:
-      - Kogito application: localhost:8080
-      - AuditUI: localhost:1337
-      - Grafana: localhost:3000
-      - You can now open localhost:8080/swagger-ui and execute some POST requests to the LoanEligibility with the following payload
+     - The services are available at the following endpoints:
+     - Kogito application: localhost:8080
+     - AuditUI: localhost:1337
+     - Grafana: localhost:3000
+     - You can now open localhost:8080/swagger-ui and execute some POST requests to the LoanEligibility with the following payload
 
 ## Submission
 
 Please find below the links for my submission:
 
 - GitHub Repository: [GitHub Link](https://github.com/aryansingh920/trusty-core.git)
-- Video Tutorial: [Video Link](add-your-video-link-here)
+- Video Tutorial: [Video Link](https://youtu.be/mKOLkv7hThA)
 
 Please note that the above submission links are placeholders and should be replaced with your actual submission links.
